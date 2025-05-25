@@ -1,16 +1,14 @@
-import React, { useRef, useEffect, useState } from "react";
-// import "./Chat.css";
-
 import Header from "../../components/Header";
+import HeaderLogged from "../../components/Header/HeaderLoggedIn";
 
 import Footer from "../../components/Footer";
-import Test from "./Test";
+import BodyHomePage from "./Body";
 
 function HomePage() {
   return (
     <>
       <Header />
-      <Test />
+      <BodyHomePage />
       <Footer />
     </>
   );

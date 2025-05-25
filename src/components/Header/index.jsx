@@ -14,21 +14,21 @@ const Header = (header) => {
       <nav>
         <ul>
           <li>
-            <a href="#" class="nav--active">
+            <a href="/" class="nav--active">
               Home
             </a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
             <a href="#">Programs</a>
           </li>
           <li>
-            <a href="#">Podcasts</a>
+            <a href="podcast">Podcasts</a>
           </li>
           <li>
-            <a href="#">Blogs</a>
+            <a href="/blogs">Blogs</a>
           </li>
         </ul>
       </nav>

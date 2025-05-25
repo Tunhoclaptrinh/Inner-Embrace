@@ -7,20 +7,6 @@ import { ChatProvider } from "./context/ChatContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-// Placeholder component for home page
-const Home = () => {
-  return (
-    <>
-      <Header />
-      <div>
-        <h1>Home Page</h1>
-        <p>Welcome to our e-commerce website!</p>
-      </div>
-      <Footer />
-    </>
-  );
-};
-
 // Placeholder component for not found page
 const NotFound = () => {
   return (
