@@ -25,7 +25,7 @@ const Header = (header) => {
             <a href="#">Programs</a>
           </li>
           <li>
-            <a href="podcast">Podcasts</a>
+            <a href="/podcast">Podcasts</a>
           </li>
           <li>
             <a href="/blogs">Blogs</a>
@@ -33,10 +33,10 @@ const Header = (header) => {
         </ul>
       </nav>
       <div class="nav-buttons">
-        <a href="#" class="btn btn-outline">
+        <a href="/login" class="btn btn-outline">
           Explore Programs
         </a>
-        <a href="#" class="btn btn-primary">
+        <a href="/logged-in" class="btn btn-primary">
           Try AI Coaching
         </a>
       </div>

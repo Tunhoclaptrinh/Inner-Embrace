@@ -30,11 +30,19 @@ body {
 
 .section-heading {
   color: var(--primary-color);
-  font-size: 4.8rem;
+  font-size: 4rem;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
+}
+
+.main-chat .header {
+  height: 80;
+  box-shadow: none;
+  border: none;
+  padding: 10px;
 }
 
 .p-content {
@@ -425,4 +433,41 @@ body {
   .main-chat {
     height: 60vh;
   }
+}
+
+.empty-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.empty-chat-message h3 {
+  color: #dc3545;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.chat-area p {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.start-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
 }

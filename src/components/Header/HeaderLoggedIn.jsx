@@ -31,7 +31,7 @@ const Header = () => {
       </nav>
 
       <div className="nav-buttons">
-        <a href="#" className="btn btn-primary">
+        <a href="/chat/map" className="btn btn-primary">
           Chat với AI
         </a>
         <div className="user-buttons">

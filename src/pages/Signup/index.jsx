@@ -61,12 +61,12 @@ const Signup = () => {
     setIsLoading(true);
 
     try {
-      const result = await signup({
-        firstName: formData.firstName,
-        lastName: formData.lastName,
-        email: formData.email,
-        password: formData.password,
-      });
+      const result = await signup(
+        // firstName: formData.firstName,
+        // lastName: formData.lastName,
+        formData.email,
+        formData.password
+      );
 
       if (result.success) {
         navigate("/chat");

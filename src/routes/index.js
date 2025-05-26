@@ -94,6 +94,9 @@ import PodcastDetail from "../pages/PodcastsPage/PodcastDetail";
 import PodcastList from "../pages/PodcastsPage/PodcastList";
 import Signup from "../pages/Signup";
 import LoggedInHomePage from "../pages/LoggeIn/index";
+import InnerMapPage from "../pages/ChatPage/InnerMapPage";
+import ImaginaryPage from "../pages/ChatPage/ImaginaryPage";
+import PortalPage from "../pages/ChatPage/PortalPage";
 
 const routes = [
   {
@@ -141,19 +144,25 @@ const routes = [
   {
     path: "/chat/map",
     name: "Inner Map Chat",
+    page: InnerMapPage,
+    header: false,
+  },
+  {
+    path: "/chat/chat",
+    name: "Inner Map Chat",
     page: ChatPage,
     header: false,
   },
   {
     path: "/chat/imaginary",
     name: "Imaginary Chat",
-    page: ChatPage,
+    page: ImaginaryPage,
     header: false,
   },
   {
     path: "/chat/portal",
     name: "Portal Chat",
-    page: ChatPage,
+    page: PortalPage,
     header: false,
   },
   {

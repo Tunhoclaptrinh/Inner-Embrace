@@ -5,6 +5,8 @@ import Footer from "../../components/Footer";
 import ctaLeaf from "./assets/img/cta-leaf.png"; // Import logo tương tự PodcastList và Body
 import { ArrowRight } from "lucide-react";
 import InnerMap from "./assets/img/innermap.png";
+import Imaginary from "./assets/img/ImaginaryCoaching.png";
+import Portal from "./assets/img/PossibilityPortal.png";
 
 const LoggedInHomePage = () => {
   return (
@@ -140,14 +142,17 @@ const LoggedInHomePage = () => {
             <p className="logged-in-homepage__ai-feature-description">
               2-minute guided reflection
             </p>
-            <button className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary">
+            <a
+              className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary"
+              href="/chat/map"
+            >
               Try Now
-            </button>
+            </a>
           </div>
 
           <div className="logged-in-homepage__ai-feature">
             <div className="logged-in-homepage__ai-icon logged-in-homepage__ai-circle-2">
-              <img src={InnerMap} alt="" />
+              <img src={Imaginary} alt="" />
             </div>
             <h3 className="logged-in-homepage__ai-feature-title">
               Imaginary Coaching
@@ -155,14 +160,17 @@ const LoggedInHomePage = () => {
             <p className="logged-in-homepage__ai-feature-description">
               5-minute coaching session
             </p>
-            <button className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary">
+            <a
+              className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary"
+              href="/chat/imaginary"
+            >
               Try Now
-            </button>
+            </a>
           </div>
 
           <div className="logged-in-homepage__ai-feature">
             <div className="logged-in-homepage__ai-icon logged-in-homepage__ai-circle-3">
-              <img src={InnerMap} alt="" />
+              <img src={Portal} alt="" />
             </div>
             <h3 className="logged-in-homepage__ai-feature-title">
               Possibility Portal
@@ -170,9 +178,12 @@ const LoggedInHomePage = () => {
             <p className="logged-in-homepage__ai-feature-description">
               3-minute inspiration session
             </p>
-            <button className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary">
+            <a
+              className="logged-in-homepage__ai-feature-button homepage-btn homepage-btn-primary"
+              href="/chat/portal"
+            >
               Try Now
-            </button>
+            </a>
           </div>
         </div>
       </section>
